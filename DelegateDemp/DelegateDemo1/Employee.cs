@@ -17,7 +17,7 @@ namespace DelegateDemo1
 		private readonly List<EmployeeModel> EmployeeList;
 
 		public Employee()
-        {
+        	{
 			EmployeeList = new List<EmployeeModel>
 			{
 				new EmployeeModel() { Id = 1, Name = "Sandeep", Experience = 8 , Salary = 20 },
@@ -40,11 +40,12 @@ namespace DelegateDemo1
 			{
 				if (isPromotable(employee))
 				{ 
-						Console.WriteLine("Employee" + " " + employee.Name + " " + "Promoted");
+					Console.WriteLine("Employee" + " " + employee.Name + " " + "Promoted");
 				}
 			}
 
 		}
+		
 		private static void MethodOne()
 		{
 			Console.WriteLine("MethodOne");
@@ -62,8 +63,8 @@ namespace DelegateDemo1
 			multiCastDel += MethodTwo;
 			
 			multiCastDel();
-		
 		}
+		
 		static bool EligibleEmp(EmployeeModel ee)
 		{
 			if (ee.Experience >= 8)
@@ -75,6 +76,7 @@ namespace DelegateDemo1
 				return false;
 			}
 		}
+		
 		static bool EligibleEmpSalary(EmployeeModel e2)
 		{
 			if (e2.Salary >= 10)
@@ -86,7 +88,5 @@ namespace DelegateDemo1
 				return false;
 			}
 		}
-
-
 	}
 }
