@@ -1,7 +1,0 @@
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\bin\Debug\DelegateDemp.exe.config
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\bin\Debug\DelegateDemp.exe
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\bin\Debug\DelegateDemp.pdb
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\obj\Debug\DelegateDemp.csprojResolveAssemblyReference.cache
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\obj\Debug\DelegateDemp.csproj.CoreCompileInputs.cache
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\obj\Debug\DelegateDemp.exe
-c:\users\sande\source\repos\DelegateDemp\DelegateDemp\obj\Debug\DelegateDemp.pdb
