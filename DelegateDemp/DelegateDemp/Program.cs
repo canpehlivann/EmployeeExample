@@ -9,6 +9,7 @@ namespace DelegateDemp
 	class Program
 	{
 		private delegate void GreetingDelegate(string Name);
+		
 		static void Main()
 		{
 			var del = new GreetingDelegate(Greeting);
