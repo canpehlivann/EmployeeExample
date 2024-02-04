@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace DelegateDemp
 {
-	public delegate void GreetingDelegate(string Name);
-
 	class Program
 	{
-		static void Main(string[] args)
+		private delegate void GreetingDelegate(string Name);
+		static void Main()
 		{
-			GreetingDelegate del = new GreetingDelegate(Greeting);
-			//GreetingDelegate del = Greeting;
+			var del = new GreetingDelegate(Greeting);
+
 			del("Sandeep");
+			
 			Console.ReadKey();
 		}
 
-		public static void Greeting(string Name)
+		private static void Greeting(string Name)
 		{
+
 			Console.WriteLine("Hello " + Name);
+		
 		}
 	}
 }
