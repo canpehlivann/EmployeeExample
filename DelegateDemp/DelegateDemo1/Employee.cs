@@ -45,7 +45,8 @@ namespace DelegateDemo1
 			}
 
 		}
-		
+
+		// TODO: Printer.cs diye ayrı bir dosya tanımlanmalı ve çalışanların bilgilerini ekrana basmayla ilgili fonksiyonlar ayrı bir sınıfta bulunmalıdır.
 		private static void MethodOne()
 		{
 			Console.WriteLine("MethodOne");
